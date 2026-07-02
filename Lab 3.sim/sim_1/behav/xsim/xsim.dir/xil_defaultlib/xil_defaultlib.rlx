@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.srcs/sim_1/new/Lab3TestBench.v,1782952043,verilog,,,,Lab3TestBench,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.srcs/sources_1/new/Mux_16x1Lab.v,1782951084,verilog,,C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.srcs/sim_1/new/Lab3TestBench.v,,Mux_16x1Lab;debounce;mux16x1;mux2x1;toggle_switch,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
