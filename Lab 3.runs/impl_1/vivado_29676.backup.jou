@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Jul  1 17:41:36 2026
+# Process ID         : 29676
+# Current directory  : C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1
+# Command line       : vivado.exe -log Mux_16x1Lab.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Mux_16x1Lab.tcl -notrace
+# Log file           : C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab.vdi
+# Journal file       : C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1\vivado.jou
+# Running On         : Legion-5-Copper
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 260 w/ Radeon 780M Graphics
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16438 MB
+# Swap memory        : 27130 MB
+# Total Virtual      : 43568 MB
+# Available Virtual  : 8976 MB
+#-----------------------------------------------------------
+source Mux_16x1Lab.tcl -notrace

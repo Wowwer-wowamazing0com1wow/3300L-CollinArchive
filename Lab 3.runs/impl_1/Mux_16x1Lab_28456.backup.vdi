@@ -1,0 +1,567 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Jul  1 16:45:30 2026
+# Process ID         : 28456
+# Current directory  : C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1
+# Command line       : vivado.exe -log Mux_16x1Lab.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Mux_16x1Lab.tcl -notrace
+# Log file           : C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab.vdi
+# Journal file       : C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1\vivado.jou
+# Running On         : Legion-5-Copper
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 260 w/ Radeon 780M Graphics
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16438 MB
+# Swap memory        : 27130 MB
+# Total Virtual      : 43568 MB
+# Available Virtual  : 15486 MB
+#-----------------------------------------------------------
+source Mux_16x1Lab.tcl -notrace
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 533.508 ; gain = 218.621
+Command: link_design -top Mux_16x1Lab -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 747.988 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/brick/Downloads/Nexys-A7-100T-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 903.254 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 15 Warnings, 15 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 908.238 ; gain = 374.730
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.922 . Memory (MB): peak = 922.156 ; gain = 13.918
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1408.414 ; gain = 486.258
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1869.617 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1869.617 ; gain = 0.000
+Phase 1 Initialization | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1869.617 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Detect if minReqCache needed
+Phase 2.1 Detect if minReqCache needed | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1869.633 ; gain = 0.016
+
+Phase 2.2 Timer Update
+Phase 2.2 Timer Update | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1869.633 ; gain = 0.016
+Phase 2 Timer Update And Timing Data Collection | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1869.633 ; gain = 0.016
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 1869.633 ; gain = 0.016
+Retarget | Checksum: 23edd2aa7
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1869.633 ; gain = 0.016
+Constant propagation | Checksum: 23edd2aa7
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Phase 5 Sweep | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 1869.633 ; gain = 0.016
+Sweep | Checksum: 23edd2aa7
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 1869.633 ; gain = 0.016
+BUFG optimization | Checksum: 23edd2aa7
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.106 . Memory (MB): peak = 1869.633 ; gain = 0.016
+Shift Register Optimization | Checksum: 23edd2aa7
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1869.633 ; gain = 0.016
+Post Processing Netlist | Checksum: 23edd2aa7
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 1869.633 ; gain = 0.016
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.135 . Memory (MB): peak = 1869.633 ; gain = 0.016
+Phase 9 Finalization | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.137 . Memory (MB): peak = 1869.633 ; gain = 0.016
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.144 . Memory (MB): peak = 1869.633 ; gain = 0.016
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 23edd2aa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 15 Warnings, 15 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1869.633 ; gain = 961.395
+INFO: [Vivado 12-24828] Executing command : report_drc -file Mux_16x1Lab_drc_opted.rpt -pb Mux_16x1Lab_drc_opted.pb -rpx Mux_16x1Lab_drc_opted.rpx
+Command: report_drc -file Mux_16x1Lab_drc_opted.rpt -pb Mux_16x1Lab_drc_opted.pb -rpx Mux_16x1Lab_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab_drc_opted.rpt.
+report_drc completed successfully
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote PlaceStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 19f2009c4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 19f2009c4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.270 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+WARNING: [Place 30-2953] Timing driven mode will be turned off because no critical terminals were found.
+Phase 1.3 Build Placer Netlist Model | Checksum: 23952409a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.425 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 23952409a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.428 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 23952409a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.430 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 2 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.434 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Place 30-281] No place-able instance is found; design doesn't contain any instance or all instances are placed
+Ending Placer Task | Checksum: 19f2009c4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.438 . Memory (MB): peak = 1869.633 ; gain = 0.000
+44 Infos, 16 Warnings, 15 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [Vivado 12-24838] Running report commands "report_control_sets, report_io, report_utilization" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Mux_16x1Lab_utilization_placed.rpt -pb Mux_16x1Lab_utilization_placed.pb
+INFO: [Vivado 12-24828] Executing command : report_control_sets -verbose -file Mux_16x1Lab_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_io -file Mux_16x1Lab_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.160 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote PlaceStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+
+Starting Initial Update Timing Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Vivado_Tcl 4-2279] Estimated Timing Summary | WNS= 0.000 | TNS= 0.000 | 
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. All physical synthesis setup optimizations will be skipped.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+56 Infos, 16 Warnings, 15 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote PlaceStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: c6e4ad5b ConstDB: 0 ShapeSum: 2668fcd3 RouteDB: b1d25f96
+Post Restoration Checksum: NetGraph: 9f075967 | NumContArr: 557679c9 | Constraints: c2a8fa9d | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 279cfc86a
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 279cfc86a
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 279cfc86a
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 279cfc86a
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 2.4 Soft Constraint Pins - Fast Budgeting
+Phase 2.4 Soft Constraint Pins - Fast Budgeting | Checksum: 279cfc86a
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 1
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 1
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 279cfc86a
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 279cfc86a
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+ Number of Nodes with overlaps = 0
+Phase 4.1 Initial Net Routing Pass | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Phase 4 Initial Routing | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+Phase 5.1 Global Iteration 0 | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Phase 5 Rip-up And Reroute | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:40 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+Phase 6.1 Delay CleanUp | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Phase 6 Delay and Skew Optimization | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+Phase 7.1 Hold Fix Iter | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Phase 7 Post Hold Fix | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.000565783 %
+  Global Horizontal Routing Utilization  = 7.10429e-05 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 11 Post Process Routing
+Phase 11 Post Process Routing | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Phase 12 Post Router Timing
+Phase 12 Post Router Timing | Checksum: 220a3fbce
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Total Elapsed time in route_design: 40.598 secs
+
+Phase 13 Post-Route Event Processing
+Phase 13 Post-Route Event Processing | Checksum: 110615027
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 110615027
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+62 Infos, 16 Warnings, 15 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_drc -file Mux_16x1Lab_drc_routed.rpt -pb Mux_16x1Lab_drc_routed.pb -rpx Mux_16x1Lab_drc_routed.rpx
+Command: report_drc -file Mux_16x1Lab_drc_routed.rpt -pb Mux_16x1Lab_drc_routed.pb -rpx Mux_16x1Lab_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab_drc_routed.rpt.
+report_drc completed successfully
+INFO: [Vivado 12-24828] Executing command : report_methodology -file Mux_16x1Lab_methodology_drc_routed.rpt -pb Mux_16x1Lab_methodology_drc_routed.pb -rpx Mux_16x1Lab_methodology_drc_routed.rpx
+Command: report_methodology -file Mux_16x1Lab_methodology_drc_routed.rpt -pb Mux_16x1Lab_methodology_drc_routed.pb -rpx Mux_16x1Lab_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -routable_nets -report_unconstrained -file Mux_16x1Lab_timing_summary_routed.rpt -pb Mux_16x1Lab_timing_summary_routed.pb -rpx Mux_16x1Lab_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Vivado 12-24838] Running report commands "report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file Mux_16x1Lab_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_route_status -file Mux_16x1Lab_route_status.rpt -pb Mux_16x1Lab_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_power -file Mux_16x1Lab_power_routed.rpt -pb Mux_16x1Lab_power_summary_routed.pb -rpx Mux_16x1Lab_power_routed.rpx
+Command: report_power -file Mux_16x1Lab_power_routed.rpt -pb Mux_16x1Lab_power_summary_routed.pb -rpx Mux_16x1Lab_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+79 Infos, 16 Warnings, 15 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file Mux_16x1Lab_clock_utilization_routed.rpt
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file Mux_16x1Lab_bus_skew_routed.rpt -pb Mux_16x1Lab_bus_skew_routed.pb -rpx Mux_16x1Lab_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote PlaceStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1869.633 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 1869.633 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brick/OneDrive/Documents/ECE3300L/Lab 3/Lab 3.runs/impl_1/Mux_16x1Lab_routed.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Wed Jul  1 16:47:08 2026...
